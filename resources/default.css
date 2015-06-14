@@ -5,3 +5,8 @@ body {
 div.chart-container {
     overflow: auto;
 }
+
+canvas.full-width {
+    width: 100%;
+    height: 85%;
+}
