@@ -9,9 +9,14 @@
     <link rel="stylesheet" href="/resources/default.css">
     <link rel="stylesheet" href="/resources/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/resources/bootstrap/css/bootstrap-theme.min.css">
+    <script src="/resources/jquery/js/jquery-1.11.3.min.js"></script>
     <script src="/resources/bootstrap/js/bootstrap.min.js"></script>
     {% if page.chart == true %}
     <script src="/resources/chartjs/Chart.min.js"></script>
+    {% endif %}
+    {% if page.react == true %}
+    <script src="/resources/underscore/js/underscore-min.js"></script>
+    <script src="/resources/react/js/react-0.13.3.js"></script>
     {% endif %}
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
